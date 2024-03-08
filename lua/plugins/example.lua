@@ -188,6 +188,18 @@ return {
     opts = function()
       return {
         --[[add your custom lualine config here]]
+        options = {
+          theme = "material",
+          globalstatus = true,
+        },
+        sections = {
+          lualine_a = { "mode" },
+          lualine_b = { "branch" },
+        },
+        extensions = {
+          "neo-tree",
+          "lazy",
+        },
       }
     end,
   },
