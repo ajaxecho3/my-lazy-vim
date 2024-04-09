@@ -13,6 +13,12 @@ map("n", "<leader><tab>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 map("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 map("n", "<leader><tab>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 
+--Windows management
+map("n", "<leader>wv", "<C-w>v", { desc = "Split Vertically" })
+map("n", "<leader>wh", "<C-w>s", { desc = "Split Horizontally" })
+map("n", "<leader>we", "<C-w>=", { desc = "Equalize splits" })
+map("n", "<leader>wx", "<cmd>close<CR>", { desc = "Close current split" })
+
 -- moving code blocks
 
 --#region<F5>
