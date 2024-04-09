@@ -18,11 +18,16 @@ map("n", "<leader>wv", "<C-w>v", { desc = "Split Vertically" })
 map("n", "<leader>wh", "<C-w>s", { desc = "Split Horizontally" })
 map("n", "<leader>we", "<C-w>=", { desc = "Equalize splits" })
 map("n", "<leader>wx", "<cmd>close<CR>", { desc = "Close current split" })
-
+map("n", "<leader>wo", "<cmd>only<CR>", { desc = "Close all splits except current" })
+map("n", "<leader>wj", "<C-w>j", { desc = "Focus split below" })
+map("n", "<leader>wk", "<C-w>k", { desc = "Focus split above" })
+map("n", "<leader>wh", "<C-w>h", { desc = "Focus split left" })
+map("n", "<leader>wl", "<C-w>l", { desc = "Focus split right" })
 -- moving code blocks
+map("n", "<C-k>", "mz:m-2<CR>`z", { desc = "Move line up" })
+map("n", "<C-j>", "mz:m+<CR>`z", { desc = "Move line down" })
 
---#region<F5>
---#region4
+--multiple cursors
 --#region<F3>
 --#region<F6>
 --testing

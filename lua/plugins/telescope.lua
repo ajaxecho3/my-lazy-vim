@@ -1,10 +1,4 @@
 return {
-  -- Hihglight colors
-  {
-    "echasnovski/mini.hipatterns",
-    event = "BufReadPre",
-    opts = {},
-  },
   {
     "telescope.nvim",
     priority = 1000,
